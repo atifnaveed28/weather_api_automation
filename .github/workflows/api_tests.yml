@@ -33,3 +33,5 @@ jobs:
       with:
         name: weather-report
         path: reports/weather_report.html
+
+# Trigger workflow
