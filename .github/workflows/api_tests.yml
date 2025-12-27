@@ -29,7 +29,7 @@ jobs:
         pytest -v -s tests/ --html=reports/weather_report.html
 
     - name: Upload HTML report
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: weather-report
         path: reports/weather_report.html
