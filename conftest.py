@@ -6,4 +6,4 @@ def base_url():
 
 @pytest.fixture
 def api_key():
-    return "4e68f9c659ffbe00b864d8f621eeced3"
+    return "OPENWEATHER_API_KEY"
